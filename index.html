@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/src/style.css">
+
+    <title>Zwölf Store</title>
+</head>
+
+<body>
+    <!-- ===header=== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                Zwölf Store
+            </a>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">About</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#popular" class="nav_link">Contact</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#explore" class="nav_link">Login</a>
+                    </li>
+                </ul>
+
+                <!-- close btn -->
+                <div class="nav_close" id="nav_close">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+            </div>
+            <!-- toggle btn -->
+            <div class="nav_toggle" id="nav_toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===main=== -->
+    <main class="main" id="main">
+        <!-- ===home=== -->
+        <section class="home" id="home">
+            <!-- <img src="/src/img/batik.jpg" alt="home" class="home_bg"> -->
+            <div class="home_shadow"></div>
+
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <h3 class="home_subs">
+                        Welcome to <br> Zwölf Store
+                    </h3>
+
+                    <h1 class="home_title">
+                        Batik <br>
+                        Indonesia
+                    </h1>
+
+                    <p class="home_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis adipisci temporibus. Dolorem, consequatur possimus, <br>
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+
+                    <a href="" class="button">
+                        Start Shopping <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home_cards grid">
+                    <article class="home_card">
+                        <img src="/src/img/download.jpg" alt="home img" class="home_card_img">
+                        <h3 class="home_card_title">Pekalongan</h3>
+                        <div class="home_card_shadow"></div>
+                    </article>
+
+                    <article class="home_card">
+                        <img src="/src/img/download.jpg" alt="home img" class="home_card_img">
+                        <h3 class="home_card_title">Malangan</h3>
+                        <div class="home_card_shadow"></div>
+                    </article>
+
+                    <article class="home_card">
+                        <img src="/src/img/download.jpg" alt="home img" class="home_card_img">
+                        <h3 class="home_card_title">Jogjakarta</h3>
+                        <div class="home_card_shadow"></div>
+                    </article>
+
+                    <article class="home_card">
+                        <img src="/src/img/download.jpg" alt="home img" class="home_card_img">
+                        <h3 class="home_card_title">Bali</h3>
+                        <div class="home_card_shadow"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===about=== -->
+        <section class="about" id="about">
+            <div class="about_container container grid">
+                <div class="about_data">
+                    <h2 class="section_title">
+                        Learn more <br>
+                        About us
+                    </h2>
+
+                    <p class="about_desc">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim similique ipsam aperiam,
+                      facere impedit consequatur nulla sed explicabo quaerat reprehenderit officiis ratione nisi deleniti sit
+                      nobis mollitia dignissimos debitis magni, delectus illo tempore. Eligendi velit, eaque, iure, qui rerum
+                      eius voluptatibus porro veniam ullam recusandae magni cum at alias reiciendis.
+                    </p>
+
+                    <a href="#" class="button">
+                        Our Product 
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="about_image">
+                    <img src="/src/img/batik5.png" alt="" class="about_img">
+                    <div class="about_shadow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===popular=== -->
+        <section class="popular" id="popular">
+            <h2 class="section_title">
+                Batik Of Indonesia
+            </h2>
+
+            <div class="popular_container container grid">
+                <article class="popular_card">
+                    <div class="popular_image">
+                        <img src="assets/antelope.png" alt="" class="popular_img">
+                        <div class="popular_shadow"></div>
+                    </div>
+
+                    <h2 class="popular_titles">
+                        Batik Pekalongan
+                    </h2>
+
+                    <div class="popular_locate">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Pekalongan Indonesia</span>
+                    </div>
+                </article>
+
+                <article class="popular_card">
+                    <div class="popular_image">
+                        <img src="assets/madagaskar.jpg" alt="" class="popular_img">
+                        <div class="popular_shadow"></div>
+                    </div>
+
+                    <h2 class="popular_titles">
+                        Batik Malangan
+                    </h2>
+
+                    <div class="popular_locate">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Malang Indonesia</span>
+                    </div>
+                </article>
+
+                <article class="popular_card">
+                    <div class="popular_image">
+                        <img src="assets/Faroe Island.jpg" alt="" class="popular_img">
+                        <div class="popular_shadow"></div>
+                    </div>
+
+                    <h2 class="popular_titles">
+                        Batik Jogjakarta
+                    </h2>
+
+                    <div class="popular_locate">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Jogjakarta Indonesia</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===explore=== -->
+        <section class="explore" id="explore">
+            <div class="explore_container">
+                <div class="explore_image">
+                    <img src="assets/Unique-Hidden-Gems-in-Mexico.jpg" alt="" class="explore_img">
+                    <div class="explore_shadow"></div>
+                </div>
+
+                <div class="explore_content container grid">
+                    <div class="explore_data">
+                        <h2 class="section_title">
+                            Discovering The <br> Finest Destinations
+                        </h2>
+
+                        <p class="explore_desc">
+                            Embark on a journey of discovery as you uncover hidden gems and breathtaking wonders
+                            scattered across the globe. Whether you seek pristine tropical beaches, enchanting mountain
+                            retreats, or culturally rich cities, our platform is your gateway to a world of unparalleled
+                            beauty and adventure.
+                        </p>
+                    </div>
+
+                    <div class="explore_user">
+                        <img src="assets/cipung.jpeg" alt="" class="explore_profile">
+                        <span class="explore_name">Rayyanza</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ===join=== -->
+        <section class="join section">
+            <div class="join_container container grid">
+                <div class="join_data">
+                    <h2 class="section_title">
+                        Your Journey <br>
+                        Starts Here
+                    </h2>
+
+                    <p class="join_desc">
+                        Subscribe us on a journey of discovery as you uncover hidden gems and breathtaking wonders
+                        scattered across the globe.
+                    </p>
+
+                    <form action="" class="join_form">
+                        <input type="email" name="email" placeholder="Your Email" class="join_input">
+
+                        <button class="join_btn button">Subscribe <i class="ri-arrow-right-line"></i> </button>
+                    </form>
+                </div>
+                <div class="join_image">
+                    <img src="assets/lofoten.jpg" alt="" class="join_img">
+                    <div class="join_shadow"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===footer=== -->
+    <footer class="footer">
+        <div class="footer_container container grid">
+            <div class="footer_content grid">
+                <div>
+                    <a href="#" class="footer_logo">Zwölf Store</a>
+
+                    <p class="footer_desc">
+                        Lorem ipsum dolor sit amet. <br>
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+
+                <div class="footer_data grid">
+                    <div>
+                        <h3 class="footer_title">About</h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">News & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">Company</h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">History</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Testimonials</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">Contact</h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">Call Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Support Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">Support</h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Terms & Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Payments</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_group">
+                <div class="footer_social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer_social_link">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer_social_link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="footer_social_link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" class="footer_social_link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                </div>
+                <span class="footer_copy">
+                    &#169; Copyright Zwölf Store. All rights reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- ===scroll-up=== -->
+    <a href="" class="scrollup" id="scrollup">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- js -->
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>
